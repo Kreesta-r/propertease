@@ -16,7 +16,7 @@ const Section2 = () => {
 
         <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           {/* First Property */}
-          <div className="overflow-hidden rounded-lg shadow-lg bg-white">
+          <div className="overflow-hidden rounded-lg shadow-md bg-white">
             <Image
               alt="Luxury home"
               src="/banner4.jpg"
@@ -36,7 +36,7 @@ const Section2 = () => {
           </div>
 
           {/* Second Property */}
-          <div className="overflow-hidden rounded-lg shadow-lg bg-white">
+          <div className="overflow-hidden rounded-lg shadow-md bg-white">
             <Image
               alt="Luxury home"
               src="/banner10.jpg"
@@ -56,7 +56,7 @@ const Section2 = () => {
           </div>
 
           {/* Third Property */}
-          <div className="overflow-hidden rounded-lg shadow-lg bg-white">
+          <div className="overflow-hidden rounded-lg shadow-md bg-white">
             <Image
               alt="Luxury home"
               src="/banner9.jpg"
@@ -76,7 +76,7 @@ const Section2 = () => {
           </div>
 
           {/* Fourth Property */}
-          <div className="overflow-hidden rounded-lg shadow-lg bg-white">
+          <div className="overflow-hidden rounded-lg shadow-md bg-white">
             <Image
               alt="Luxury home"
               src="/banner8.jpg"
@@ -96,7 +96,7 @@ const Section2 = () => {
           </div>
 
           {/* Fifth Property */}
-          <div className="overflow-hidden rounded-lg shadow-lg bg-white">
+          <div className="overflow-hidden rounded-lg shadow-md bg-white">
             <Image
               alt="Luxury home"
               src="/banner6.jpg"
@@ -116,7 +116,7 @@ const Section2 = () => {
           </div>
 
           {/* Sixth Property */}
-          <div className="overflow-hidden rounded-lg shadow-lg bg-white">
+          <div className="overflow-hidden rounded-lg shadow-md bg-white">
             <Image
               alt="Luxury home"
               src="/banner5.jpg"

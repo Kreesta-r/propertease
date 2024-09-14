@@ -29,7 +29,7 @@ const Section5 = () => {
                 <input
                   type="text"
                   id="name"
-                  className="mt-1 block w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:ring focus:ring-blue-300"
+                  className="mt-1 block w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:ring focus:ring-orange-300"
                   placeholder="Your name"
                 />
               </div>
@@ -38,7 +38,7 @@ const Section5 = () => {
                 <input
                   type="email"
                   id="email"
-                  className="mt-1 block w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:ring focus:ring-blue-300"
+                  className="mt-1 block w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:ring focus:ring-orange-300"
                   placeholder="you@example.com"
                 />
               </div>
@@ -46,7 +46,7 @@ const Section5 = () => {
                 <label className="block text-gray-600" htmlFor="message">Message</label>
                 <textarea
                   id="message"
-                  className="mt-1 block w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:ring focus:ring-blue-300"
+                  className="mt-1 block w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:ring focus:ring-orange-300"
                   placeholder="How can we help you?"
                 />
               </div>

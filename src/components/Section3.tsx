@@ -15,7 +15,7 @@ const Section3 = () => {
 
         <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3">
           <div className="text-center">
-            <div className="flex items-center justify-center h-16 w-16 mx-auto rounded-[15px] text-orange-500 border border-orange-500 text-3xl">
+            <div className="flex items-center justify-center shadow-md h-16 w-16 mx-auto rounded-[15px] text-orange-500 border border-orange-500 text-3xl">
               1
             </div>
             <h3 className="mt-6 text-lg font-bold text-gray-700">Search</h3>
@@ -25,7 +25,7 @@ const Section3 = () => {
           </div>
 
           <div className="text-center">
-            <div className="flex items-center justify-center h-16 w-16 mx-auto rounded-[15px] text-orange-500 border border-orange-500 text-3xl">
+            <div className="flex items-center shadow-md justify-center h-16 w-16 mx-auto rounded-[15px] text-orange-500 border border-orange-500 text-3xl">
               2
             </div>
             <h3 className="mt-6 text-lg font-bold text-gray-700">Connect</h3>
@@ -35,7 +35,7 @@ const Section3 = () => {
           </div>
 
           <div className="text-center">
-            <div className="flex items-center justify-center h-16 w-16 mx-auto rounded-[15px] text-orange-500 border border-orange-500 text-3xl">
+            <div className="flex items-center shadow-md justify-center h-16 w-16 mx-auto rounded-[15px] text-orange-500 border border-orange-500 text-3xl">
               3
             </div>
             <h3 className="mt-6 text-lg font-bold text-gray-700">Move In</h3>
