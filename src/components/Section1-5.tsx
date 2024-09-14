@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const Section0 = () => {
@@ -17,10 +18,12 @@ const Section0 = () => {
             </article>
           </div>
           <div className="relative h-64 overflow-hidden sm:h-80 lg:h-full">
-            <img
+            <Image
               alt="Beautiful modern home exterior"
               src="/banner3.jpg"
               className="absolute inset-0 h-full w-full object-cover"
+              height={1000}
+              width={1000}
             />
           </div>
         </div>

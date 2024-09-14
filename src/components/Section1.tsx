@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const Section1 = () => {
@@ -16,10 +17,12 @@ const Section1 = () => {
 
         <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
           <div className="relative h-64 overflow-hidden sm:h-80 lg:h-full">
-            <img
+            <Image
               alt="Beautiful modern home exterior"
               src="/banner2.png"
               className="absolute inset-0 h-full w-full object-cover"
+              height={1000}
+              width={1000}
             />
           </div>
 

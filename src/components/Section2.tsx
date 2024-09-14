@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const Section2 = () => {
@@ -16,10 +17,12 @@ const Section2 = () => {
         <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           {/* First Property */}
           <div className="overflow-hidden rounded-lg shadow-lg bg-white">
-            <img
+            <Image
               alt="Luxury home"
               src="/banner4.jpg"
               className="h-48 w-full object-cover"
+              width={1000}
+              height={1000}
             />
             <div className="p-6">
               <h3 className="text-xl font-bold text-gray-700">Modern Loft in Downtown Chicago</h3>
@@ -34,10 +37,12 @@ const Section2 = () => {
 
           {/* Second Property */}
           <div className="overflow-hidden rounded-lg shadow-lg bg-white">
-            <img
+            <Image
               alt="Luxury home"
               src="/banner10.jpg"
               className="h-48 w-full object-cover"
+              width={1000}
+              height={1000}
             />
             <div className="p-6">
               <h3 className="text-xl font-bold text-gray-700">Cozy Cottage in Asheville, NC</h3>
@@ -52,10 +57,12 @@ const Section2 = () => {
 
           {/* Third Property */}
           <div className="overflow-hidden rounded-lg shadow-lg bg-white">
-            <img
+            <Image
               alt="Luxury home"
               src="/banner9.jpg"
               className="h-48 w-full object-cover"
+              width={1000}
+              height={1000}
             />
             <div className="p-6">
               <h3 className="text-xl font-bold text-gray-700">Luxury Penthouse in Manhattan</h3>
@@ -70,10 +77,12 @@ const Section2 = () => {
 
           {/* Fourth Property */}
           <div className="overflow-hidden rounded-lg shadow-lg bg-white">
-            <img
+            <Image
               alt="Luxury home"
               src="/banner8.jpg"
               className="h-48 w-full object-cover"
+              width={1000}
+              height={1000}
             />
             <div className="p-6">
               <h3 className="text-xl font-bold text-gray-700">Spacious Ranch in Dallas Suburbs</h3>
@@ -88,10 +97,12 @@ const Section2 = () => {
 
           {/* Fifth Property */}
           <div className="overflow-hidden rounded-lg shadow-lg bg-white">
-            <img
+            <Image
               alt="Luxury home"
               src="/banner6.jpg"
               className="h-48 w-full object-cover"
+              width={1000}
+              height={1000}
             />
             <div className="p-6">
               <h3 className="text-xl font-bold text-gray-700">Charming Bungalow in Portland, OR</h3>
@@ -106,10 +117,12 @@ const Section2 = () => {
 
           {/* Sixth Property */}
           <div className="overflow-hidden rounded-lg shadow-lg bg-white">
-            <img
+            <Image
               alt="Luxury home"
               src="/banner5.jpg"
               className="h-48 w-full object-cover"
+              width={1000}
+              height={1000}
             />
             <div className="p-6">
               <h3 className="text-xl font-bold text-gray-700">Family Home in Scottsdale, AZ</h3>
